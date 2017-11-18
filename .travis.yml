@@ -7,5 +7,7 @@ before_install:
     - sudo apt-get -qq update
     - sudo apt-get install -y make
     - pip install -r requirements_dev.txt
+    - pip install coveralls
 script:
   - make # or py.test for Python versions 3.5 and below
+  - coveralls
