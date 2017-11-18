@@ -7,6 +7,8 @@ Small library that offers two simple to use singleton-pattern metaclasses:
  * Singleton
  * WeakSingleton
 
+Install it using `pip`: `pip install singlepy`
+
 Singleton
 ---------
 Makes usage of the arguments passed to the class constructor to identify each unique instance of the class.
