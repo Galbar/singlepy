@@ -75,10 +75,10 @@ Out[13]: True
 
 In [14]: del two_two
 
-In [15]: id_one == Number(1)
+In [15]: id_one == id(Number(1))
 Out[15]: False
 
-In [16]: id_two == Number(2)
+In [16]: id_two == id(Number(2))
 Out[16]: False
 ```
 
